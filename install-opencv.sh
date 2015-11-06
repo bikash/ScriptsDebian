@@ -51,4 +51,4 @@ sudo ldconfig
 
 # EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
 
-# To complete this step, please visit 'http://milq.github.io/install-opencv-ubuntu-debian'.
+# To complete this step, please visit 'http://rodrigoberriel.com/2014/10/installing-opencv-3-0-0-on-ubuntu-14-04/'.
