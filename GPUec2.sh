@@ -57,11 +57,17 @@ sudo pip install -U nltk
 ## install mumpy
 sudo pip install -U numpy
 
-## install punkt for nltk
-#python 
-#nltk.download()
-#python -m pip install punkt
-
 
 ## test code
+
+## install screen for maintaining session
+sudo apt-get install screen
+
+
+
+## install punkt for nltk type d to choose download and type punkt package and then type q to quit
+python nltkPunk.py
+#d punkt q
+
+
 
