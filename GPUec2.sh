@@ -48,7 +48,7 @@ nvidia-smi
 
 
 ## write global path in bashrc file
-echo "export PATH=/usr/local/cuda/bin:$PATH" >> ~/.bashrc
+echo "export PATH="/usr/local/cuda/bin:$PATH"" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH" >> ~/.bashrc
 
 ## install nltk
@@ -62,8 +62,10 @@ sudo pip install -U numpy
 sudo apt-get install screen
 
 ## install punkt for nltk type d to choose download and type punkt package and then type q to quit
-python nltkPunk.py
+python nltkPunkt.py
 #d punkt q
 
+## restart your bash profile
+source ~/.bashrc
 
 
